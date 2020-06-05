@@ -38,6 +38,9 @@
 					<a class="nav-link" href="https://blog.naver.com/ehdgk1130">전자대생 Blog</a>
 				</li>
 				<li class="nav-item">
+					<a class="nav-link" href="https://relaxed-pare-6972b0.netlify.app/">강아지상 테스트</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg">도움주신 분: 조코딩 유튜브</a>
 				</li>
 				<li class="nav-item dropdown">
@@ -194,7 +197,7 @@
 			model = await tmImage.load(modelURL, metadataURL);
 			maxPredictions = model.getTotalClasses()
 			labelContainer = document.getElementById("label-container");
-			for (let i = 0; i < maxPredictions; i++) { // and class labels
+			for (let i = 0; i < 3; i++) { // and class labels
 				labelContainer.appendChild(document.createElement("div"));
 			}
 		}
