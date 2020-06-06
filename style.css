@@ -1,12 +1,13 @@
 body {
 	font-family: sans-serif;
-	background-color: #F8E0F1;
+	background-color: #f8e0f1;
 }
 .file-upload {
-	background-color: #ffffff;
-	width: 600px;
+	padding: 15% 3%;
 	margin: 0 auto;
-	padding: 20% 0;
+	border-radius: 10px;
+	border: solid 1.5px #f6f7fa;
+	background-color: #f6f7fa;
 }
 .file-upload-btn {
 	width: 100%;
@@ -47,8 +48,8 @@ body {
 	cursor: pointer;
 }
 .image-upload-wrap {
-	margin-top: 20px;
-	border: 4px dashed #1fb264;
+	width: 60%;
+	margin: 0 auto;
 	position: relative;
 	object-fit: contain;
 	border-radius: 10px;
@@ -75,10 +76,24 @@ body {
 	font-size: 2rem;
 }
 .file-upload-image {
-	max-height: 200px;
-	max-width: 200px;
+	max-height: 60%;
+	max-width: 60%;
 	margin: auto;
-	padding: 20px;
+	padding: 10px;
+}
+
+.try-again-btn {
+	border-radius: 40px;
+	border: solid 1.5px #35465d;
+	background-color: #35465d;
+}
+
+.try-again-text {
+	display: block;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #ffffff;
+	padding: 4px 15px;
 }
 .remove-image {
 	width: 200px;
@@ -106,11 +121,11 @@ body {
 }
 .nav-distance {
 	padding: 2.1% 7.7%;
-	background-color: #ECE0F8;
+	background-color: #ece0f8;
 }
 .nav-distance .navbar-brand {
 	font-size: 1.24rem;
-	background-color: #ECE0F8;
+	background-color: #ece0f8;
 	font-family: 'Nanum Pen Script', cursive;
 }
 .section {
@@ -168,313 +183,313 @@ body {
 }
 
 .bar-container {
-  height: 2.7rem;
+	height: 2.7rem;
 }
 
 .닥스훈트-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .닥스훈트-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .요크셔테리아-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 175, 234, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
 }
 
 .요크셔테리아-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 175, 234, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
 }
 
 .토이푸들-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 176, 59, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 176, 59, 0.2);
 }
 
 .토이푸들-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 176, 59, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 176, 59, 1);
 }
 
 .치와와-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
 }
 
 .치와와-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
 }
 
 .시츄-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 175, 234, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
 }
 
 .시츄-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 175, 234, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
 }
 
 .보더콜리-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 176, 59, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 176, 59, 0.2);
 }
 
 .보더콜리-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 176, 59, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 176, 59, 1);
 }
 
 .웰시코기-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
 }
 
 .웰시코기-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
 }
 
 .골든.리트리버-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
 }
 
 .골든.리트리버-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
 }
 
 .불독-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .불독-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .푸들-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 175, 234, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
 }
 
 .푸들-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 175, 234, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
 }
 
 .시베리안.허스키-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .시베리안.허스키-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .말티즈-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 175, 234, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
 }
 
 .말티즈-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 175, 234, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
 }
 
 .진돗개-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .진돗개-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .래브라도.리트리버-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .래브라도.리트리버-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .포메라니아-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .포메라니아-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
 .비숑프라제-box {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
 }
 
 .비숑프라제-bar {
 	position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
 }
 
-.at-share-btn-elements{
+.at-share-btn-elements {
 	margin-top: 5px;
 }

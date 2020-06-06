@@ -45,7 +45,7 @@
 					<a class="nav-link" href="https://www.youtube.com/channel/UCQNE2JmbasNYbjGAcuBiRRg">도움주신 분: 조코딩 유튜브</a>
 				</li>
 				<li class="nav-item dropdown">
-					
+
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="#">Action</a>
 						<a class="dropdown-item" href="#">Another action</a>
@@ -53,7 +53,7 @@
 						<a class="dropdown-item" href="#">Something else here</a>
 					</div>
 				</li>
-				
+
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
 				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -75,43 +75,38 @@
 
 	<script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<div class="container" class="file-upload">
-
 		<div class="image-upload-wrap">
 			<input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
 			<div class="drag-text">
-				<h3 class="upload-text">강아지 사진을 올려놓거나 눌러서 업로드 하세요!!</h3>
+				<h3 class="mb-5 pb-5 pt-4 upload-text">강아지 사진을 올려놓거나 눌러서 업로드 하세요!!</h3>
 			</div>
 		</div>
 		<div class="file-upload-content">
 			<img class="file-upload-image" id="dog-image" src="#" alt="your image" />
 			<div id="loading" class="animated bounce">
-				<span class="sr-only">Loading...</span>
+				<div class="sr-only" role="status">
+					<span class="sr-only">Loading...</span>
+				</div>
+				<p class="text-center">Ai가 당신의 강아지를 분석중입니다.</p>
 			</div>
-			<p class="text-center">Ai가 당신의 강아지를 분석중입니다.</p>
 			<p class="result-massage"></p>
-			<div id="label-container"></div>
-			<div class="image-title-wrap">
-				<button type="button" onclick="removeUpload()" class="remove-image">Photo Remove
-
+			<div id="label-container" class="d-flex flex-column justify-content-around"></div>
+			<div id="addThis" class="addthis_inline_share_toolbox_pbhj"></div>
+			<div class="pt-3 image-title-wrap">
+				<button type="button p-2" onclick="window.location.reload();" class="try-again-btn"> 
+		<span class="try-again-text">다시 시도</span>
 				</button>
 			</div>
 		</div>
 	</div>
-	<center>
-		<!-- Go to www.addthis.com/dashboard to customize your tools -->
-		<div class="addthis_inline_share_toolbox_pbhj"></div>
-	</center>
-	<div class="ad-banner">
+	<div class="mt-5 ad-banner">
 		<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-1jylk1ks7onxx" data-ad-width="320" data-ad-height="100"></ins>
 		<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 	</div>
 	<center>
-	<ins class="kakao_ad_area" style="display:none;" 
- data-ad-unit    = "DAN-t4vncpjtbkfl" 
- data-ad-width   = "728" 
- data-ad-height  = "90"></ins> 
-<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
-		</center>
+		<ins class="kakao_ad_area" style="display:none;" data-ad-unit="DAN-t4vncpjtbkfl" data-ad-width="728" data-ad-height="90"></ins>
+		<script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+	</center>
 	<footer class="footer pt-5 container d-flex justify-content-center">
 		<div>
 			<p>&copy; 전자대생 2020. All Rights Reserved. </p>
